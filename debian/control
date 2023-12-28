@@ -51,7 +51,8 @@ Multi-Arch: same
 Depends: ${misc:Depends}
 Description: Various workarounds for Droidian-specific workloads
  This package contains various workarounds for Droidian-specific
- workloads. Currently it ships a library that workarounds gtk bug #6216.
+ workloads. Currently it ships a library that workarounds gtk bug #6216, as well
+ as a library that caches GLESv2 shader programs.
 
 Package: flatpak-extension-gl-hybris-droidian-workarounds
 # We're tied to the architecture supported by libhybris+flatpak
